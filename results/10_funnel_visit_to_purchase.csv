@@ -1,0 +1,4 @@
+segment,recipients,visited,purchased,recipient_to_visit_pct,visit_to_purchase_pct,purchase_per_recipient_pct,visit_step_diff_vs_control_pp,purchase_step_diff_vs_control_pp
+No E-Mail,21306,2262,122,10.62,5.39,0.573,,
+Mens E-Mail,21307,3894,267,18.28,6.86,1.253,7.66,1.46
+Womens E-Mail,21387,3238,189,15.14,5.84,0.884,4.52,0.44

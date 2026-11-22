@@ -1,0 +1,4 @@
+segment,n,share_pct,expected_n,diff,diff_pp_from_one_third
+Mens E-Mail,21307,33.29,21333.3,-26.3,-0.04
+No E-Mail,21306,33.29,21333.3,-27.3,-0.04
+Womens E-Mail,21387,33.42,21333.3,53.7,0.08

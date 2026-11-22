@@ -1,0 +1,40 @@
+section,check_name,found,expected,status
+duplicates,customers: duplicate customer_id,0,0,OK
+logic,conversion = 1 but spend = 0,0,0,OK
+logic,conversion = 1 but visit = 0,0,0,OK
+logic,spend > 0 but conversion = 0,0,0,OK
+nulls,assignments.customer_id,0,0,OK
+nulls,assignments.segment,0,0,OK
+nulls,customers.channel,0,0,OK
+nulls,customers.customer_id,0,0,OK
+nulls,customers.history,0,0,OK
+nulls,customers.history_segment,0,0,OK
+nulls,customers.mens,0,0,OK
+nulls,customers.newbie,0,0,OK
+nulls,customers.recency,0,0,OK
+nulls,customers.womens,0,0,OK
+nulls,customers.zip_code,0,0,OK
+nulls,outcomes.conversion,0,0,OK
+nulls,outcomes.customer_id,0,0,OK
+nulls,outcomes.spend,0,0,OK
+nulls,outcomes.visit,0,0,OK
+orphans,customers without assignment,0,0,OK
+orphans,customers without outcome,0,0,OK
+ranges,"channel not in (Phone, Web, Multichannel)",0,0,OK
+ranges,"conversion not in (0,1)",0,0,OK
+ranges,history < 0,0,0,OK
+ranges,"mens not in (0,1)",0,0,OK
+ranges,"newbie not in (0,1)",0,0,OK
+ranges,recency outside 1..12,0,0,OK
+ranges,segment not in the 3 expected,0,0,OK
+ranges,spend < 0,0,0,OK
+ranges,"visit not in (0,1)",0,0,OK
+ranges,"womens not in (0,1)",0,0,OK
+ranges,"zip_code not in (Surburban, Rural, Urban)",0,0,OK
+rows,assignments rows,64000,64000,OK
+rows,customers rows,64000,64000,OK
+rows,outcomes rows,64000,64000,OK
+values,channel,64000,,"INFO: Multichannel=7762, Phone=28021, Web=28217"
+values,history_segment,64000,,"INFO: 1) $0 - $100=22970 | 2) $100 - $200=14254 | 3) $200 - $350=12289 | 4) $350 - $500=6409 | 5) $500 - $750=4911 | 6) $750 - $1,000=1859 | 7) $1,000 +=1308"
+values,segment,3,,"INFO: Mens E-Mail=21307, No E-Mail=21306, Womens E-Mail=21387"
+values,zip_code,64000,,"INFO: Rural=9563, Surburban=28776, Urban=25661"

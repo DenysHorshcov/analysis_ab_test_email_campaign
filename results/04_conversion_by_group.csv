@@ -1,0 +1,4 @@
+segment,n,visits,visit_rate_pct,buyers,conversion_rate_pct,conv_diff_vs_control_pp,conv_rel_lift_pct,visit_diff_vs_control_pp
+No E-Mail,21306,2262,10.62,122,0.573,,,
+Mens E-Mail,21307,3894,18.28,267,1.253,0.681,118.8,7.66
+Womens E-Mail,21387,3238,15.14,189,0.884,0.311,54.3,4.52

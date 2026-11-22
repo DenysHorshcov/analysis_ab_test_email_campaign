@@ -1,0 +1,4 @@
+segment,n,buyers,zero_spend_pct,total_spend,avg_spend_per_customer,avg_spend_per_buyer,median_spend_per_buyer,max_spend
+No E-Mail,21306,122,99.43,13908.33,0.6528,114.00,88.37,499.00
+Mens E-Mail,21307,267,98.75,30311.69,1.4226,113.53,66.98,499.00
+Womens E-Mail,21387,189,99.12,23038.11,1.0772,121.89,94.71,499.00
