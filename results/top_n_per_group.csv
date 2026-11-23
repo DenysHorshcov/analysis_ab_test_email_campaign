@@ -1,0 +1,31 @@
+segment,rank_in_group,customer_id,spend,channel,history_segment
+No E-Mail,1,33639,499.00,Phone,1) $0 - $100
+No E-Mail,2,34082,499.00,Phone,"7) $1,000 +"
+No E-Mail,3,8602,444.92,Web,3) $200 - $350
+No E-Mail,4,61442,444.33,Web,3) $200 - $350
+No E-Mail,5,13124,397.29,Web,1) $0 - $100
+No E-Mail,6,49197,384.83,Web,1) $0 - $100
+No E-Mail,7,23888,363.23,Phone,4) $350 - $500
+No E-Mail,8,21126,358.29,Web,3) $200 - $350
+No E-Mail,9,27955,328.36,Multichannel,3) $200 - $350
+No E-Mail,10,24588,248.04,Phone,3) $200 - $350
+Mens E-Mail,1,19264,499.00,Web,1) $0 - $100
+Mens E-Mail,2,26218,499.00,Web,1) $0 - $100
+Mens E-Mail,3,34867,499.00,Phone,4) $350 - $500
+Mens E-Mail,4,40300,499.00,Phone,"7) $1,000 +"
+Mens E-Mail,5,46414,499.00,Phone,2) $100 - $200
+Mens E-Mail,6,62200,499.00,Web,5) $500 - $750
+Mens E-Mail,7,61726,482.31,Phone,3) $200 - $350
+Mens E-Mail,8,44142,421.76,Multichannel,3) $200 - $350
+Mens E-Mail,9,42994,421.17,Web,1) $0 - $100
+Mens E-Mail,10,49330,397.32,Web,2) $100 - $200
+Womens E-Mail,1,522,499.00,Multichannel,"7) $1,000 +"
+Womens E-Mail,2,23394,499.00,Multichannel,"7) $1,000 +"
+Womens E-Mail,3,27861,499.00,Web,1) $0 - $100
+Womens E-Mail,4,48737,499.00,Web,1) $0 - $100
+Womens E-Mail,5,10972,462.78,Web,5) $500 - $750
+Womens E-Mail,6,2297,414.08,Multichannel,4) $350 - $500
+Womens E-Mail,7,2257,395.24,Web,2) $100 - $200
+Womens E-Mail,8,19109,362.20,Phone,1) $0 - $100
+Womens E-Mail,9,48240,362.20,Web,1) $0 - $100
+Womens E-Mail,10,40742,350.17,Phone,1) $0 - $100

@@ -1,0 +1,5 @@
+variant,rows_after_join,total_spend,buyers
+naive JOIN (wrong),128000,134516.26,1156
+DISTINCT workaround,64000,67258.13,578
+aggregate before JOIN,64000,67258.13,578
+truth (outcomes only),64000,67258.13,578

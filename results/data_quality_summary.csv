@@ -1,0 +1,11 @@
+check,source,found,decision
+Row counts (customers/assignments/outcomes),02_data_quality,64000 in each table,OK: nothing to do
+Duplicate customer_id,02_data_quality,0,OK: nothing to do
+Orphans between the three tables,02_data_quality + anti_join_check,0 in 6 directions,OK: nothing to do
+NULLs in any column,02_data_quality,0 in 15 columns,OK: no imputation needed
+Values outside allowed ranges / categories,02_data_quality,0,OK: nothing to do
+spend > 0 iff conversion = 1; purchase implies visit,02_data_quality,0 violations,OK: spend can be averaged with zeros
+zip_code spelling 'Surburban',02_data_quality,28776 rows with this spelling,Keep as in the original data; mention in README
+Group sizes (SRM),03_srm_group_sizes,max deviation 0.08 pp from 1/3,OK: no SRM visible; confirm with chi-square in Python
+Covariate balance between groups,09_balance_check,max share difference 0.84 pp (channel Phone); recency mean diff 0.024,OK: randomization looks correct; confirm with SMD and chi-square in Python
+Duplicates by feature values (6562 per plan),plan note,different customers,Do not remove

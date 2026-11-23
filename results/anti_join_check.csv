@@ -1,0 +1,7 @@
+issue,found,expected,status,example_ids
+assignments without customer,0,0,OK,[]
+assignments without outcome,0,0,OK,[]
+customers without assignment,0,0,OK,[]
+customers without outcome,0,0,OK,[]
+outcomes without assignment,0,0,OK,[]
+outcomes without customer,0,0,OK,[]
